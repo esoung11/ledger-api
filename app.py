@@ -1,4 +1,4 @@
-from Flask import Flask, jsonify
+from flask import Flask, jsonify
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
 app = Flask(__name__)
